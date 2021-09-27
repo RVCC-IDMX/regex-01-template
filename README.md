@@ -42,14 +42,6 @@ If a test fails, jest will identify it as failing and print one or more error me
 
 ---
 
-## Edit and test each file sequentially
-
-One-by-one, edit each JavaScript file and follow the instructions for each function listed. When one file completely passes its tests, you are ready for the next file.
-
-Start with regex-01.test.js and finish with last file.
-
----
-
 ## Git is configured not to allow a commit if it sees any errors
 
 Eslint needs to be properly running in this repo as it is configured to not allow you to commit with coding errors.
