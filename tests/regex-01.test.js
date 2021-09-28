@@ -40,7 +40,7 @@ test('countVowels', () => {
 });
 
 test('replaceVowels', () => {
-  expect(replaceVowels('Hello, World!', '*')).toBe('H*llo, W*rld!');
+  expect(replaceVowels('Hello, World!', '*')).toBe('H*ll*, W*rld!');
 });
 
 test('isPrefix', () => {
