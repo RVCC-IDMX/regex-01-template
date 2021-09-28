@@ -41,6 +41,9 @@ test('countVowels', () => {
 
 test('replaceVowels', () => {
   expect(replaceVowels('Hello, World!', '*')).toBe('H*ll*, W*rld!');
+  expect(replaceVowels('Loop the street please', '#')).toBe(
+    'L#p th# str#t pl#s#'
+  );
 });
 
 test('isPrefix', () => {
