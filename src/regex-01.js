@@ -18,7 +18,6 @@
  */
 function testString(str, re) {
   // write your code here & return value
-  return re.test(str);
 }
 
 /**
