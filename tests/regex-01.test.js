@@ -30,6 +30,7 @@ test('testStringOr', () => {
 test('testStringIgnoreCase', () => {
   expect(testStringIgnoreCase('Hello, World!', 'hello')).toBe(true);
   expect(testStringIgnoreCase('Hello, World!', 'world')).toBe(true);
+  expect(testStringIgnoreCase('Hello, World!', 'WOrlD')).toBe(true);
   expect(testStringIgnoreCase('Hello, World!', 'goodbye')).toBe(false);
 });
 
