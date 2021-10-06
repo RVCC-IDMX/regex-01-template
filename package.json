@@ -4,7 +4,7 @@
   "description": "JS unit testing using Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose",
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
     "prepare": "husky install",
