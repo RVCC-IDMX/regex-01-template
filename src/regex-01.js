@@ -31,6 +31,7 @@ function testString(str, re) {
  * ? must create a regular expression using the constructor function new RexExp()
  * ? https://mzl.la/3lWGpRa
  * ? hint: create a string with the join array method and the | character as the separator
+ * ? The '|' character acts like the OR operator 
  */
 function testStringOr(str, arr) {
   // write your code here & return value
