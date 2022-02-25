@@ -28,7 +28,7 @@ function testString(str, re) {
  * false otherwise
  * ?example: testStringOr('abc', ['abc', 'def', 'ghi']) // true
  * ?example: testStringOr('abc', ['def', 'ghi']) // false
- * ? must use the constructor function new RegExp(str) to create a regular expression
+ * ? must create a regular expression using the constructor function new RexExp()
  * ? https://mzl.la/3lWGpRa
  * ? hint: create a string with the join array method and the | character as the separator
  */
