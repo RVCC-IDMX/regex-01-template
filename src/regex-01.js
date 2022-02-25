@@ -28,7 +28,7 @@ function testString(str, re) {
  * false otherwise
  * ?example: testStringOr('abc', ['abc', 'def', 'ghi']) // true
  * ?example: testStringOr('abc', ['def', 'ghi']) // false
- * ? must create a regular expression using the constructor function new RexExp()
+ * ? must create a regular expression using the constructor function new RegExp()
  * ? https://mzl.la/3lWGpRa
  * ? hint: create a string with the join array method and the | character as the separator
  * ? The '|' character acts like the OR operator 
@@ -45,7 +45,7 @@ function testStringOr(str, arr) {
  * false otherwise
  *
  * ? example: testStringIgnoreCase('ABC', 'a') // true
- * ? must use the constructor new RegExp(str) to create a regular expression
+ * ? must create a regular expression using the constructor function new RegExp()
  */
 function testStringIgnoreCase(str, match) {
   // write your code here & return value
@@ -85,7 +85,7 @@ function replaceVowels(str, ch) {
  * @returns {boolean} - true if the string starts with the prefix, false otherwise
  * ? example: startsWith('bibliophile', 'biblio')  => true
  * ? example: startsWith('library', 'biblio')  => false
- * ? must use the constructor new RegExp(str) to create a regular expression
+ * ? must create a regular expression using the constructor function new RegExp()
  */
 function isPrefix(str, prefix) {
   // write your code here & return value
